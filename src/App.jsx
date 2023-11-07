@@ -6,7 +6,7 @@ import Title from "./components/Title";
 import Score from "./components/Score";
 import Rules from "./components/Rules";
 import { useSelector } from "react-redux";
-import GameFinish from "./components/gameFinish";
+import GameFinish from "./components/GameFinish";
 
 function App() {
   const playingGame = useSelector((state) => state.game.playing);
