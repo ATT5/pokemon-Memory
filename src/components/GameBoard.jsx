@@ -14,7 +14,7 @@ const GameBoard = () => {
       const getPokemons = async () => {
         setLoading(true);
         const pokemons = await storePokemons(level);
-        console.log(pokemons);
+       
         setPokemonList(pokemons);
         setTimeout(() => {
           setLoading(false);
