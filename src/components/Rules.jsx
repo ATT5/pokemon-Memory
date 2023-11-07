@@ -10,7 +10,7 @@ const Rules = () => {
   return (
     <Modal>
       <motion.div
-        className="w-5/6 md:w-1/3  flex flex-col items-center bg-white rounded-xl border-8 border-double border-black  font-pixel"
+        className="w-5/6 md:w-1/3  flex flex-col items-center bg-white rounded-xl border-8 border-double border-black  font-pixel px-3"
         initial={{ opacity: 0, y: "100%" }}
         animate={{ opacity: [0, 0.3, 0.9, 1], y: "0" }}
         transition={{ duration: 0.5, ease: "easeIn" }}
